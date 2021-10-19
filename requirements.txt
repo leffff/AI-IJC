@@ -1,0 +1,8 @@
+numpy
+pandas
+sentencepiece
+transformers
+torch
+torchvision
+wordcloud
+matplotlib
