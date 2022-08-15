@@ -16,13 +16,12 @@ About the data:
 However we had a whole dataset of unlabeled comments. Which we were to use.</br></br>
 
 Solution for the 1st task:</br>
-1. The best score was achieved with a text model [sismetanin/xlm_roberta_base-ru-sentiment-rusentiment](https://huggingface.co/sismetanin/xlm_roberta_base-ru-sentiment-rusentiment). However the stack also included [XGBoost](https://xgboost.readthedocs.io/en/stable/#) with [Optuna](https://optuna.org) and a [GCN](https://pytorch-geometric.readthedocs.io/en/latest/modules/nn.html#torch_geometric.nn.conv.GCNConv)
+1. The best score was achieved with a text model [sismetanin/xlm_roberta_base-ru-sentiment-rusentiment](https://huggingface.co/sismetanin/xlm_roberta_base-ru-sentiment-rusentiment). However the [stack](https://github.com/leffff/AI-IJC/blob/master/stack.jpg) also included [XGBoost](https://xgboost.readthedocs.io/en/stable/#) with [Optuna](https://optuna.org) and a [GCN](https://pytorch-geometric.readthedocs.io/en/latest/modules/nn.html#torch_geometric.nn.conv.GCNConv)
 2. We did EDA and cleaned short or senseless comments like "Да", "Нет", "." etc.
 3. Implement UDA in order to utilize unlabeled samples. [Original PyTorch UDA implementation](https://github.com/SanghunYun/UDA_pytorch)
 4. We used back translation to English as an augmentation of unlabeld data.
 5. We chose [Cross Entropy](https://pytorch.org/docs/stable/generated/torch.nn.CrossEntropyLoss.html?highlight=cross%20entropy#torch.nn.CrossEntropyLoss) as supervised loss and [KL Divergece](https://pytorch.org/docs/stable/generated/torch.nn.KLDivLoss.html) as unsupervised loss
 </br>
-![picture of a stack](stack.jpg)</br></br>
 
 Solution for the 2nd task:</br>
 1. Delete senseless samples from text dataset
