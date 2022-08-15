@@ -1,5 +1,5 @@
 # AI-IJC
-Our top 1 solution to [AI IJC](https://aiijc.com/en/about) Customer Service team round task </br></br>
+Our top 1 solution to [AI IJC](https://aiijc.com/en/about) competition </br></br>
 ![alt text](leaderboard.png)</br></br>
 
 Contest included several tasks:
