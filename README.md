@@ -22,7 +22,7 @@ Solution for the 1st task:</br>
 4. We used back translation to English as an augmentation of unlabeld data.
 5. We chose [Cross Entropy](https://pytorch.org/docs/stable/generated/torch.nn.CrossEntropyLoss.html?highlight=cross%20entropy#torch.nn.CrossEntropyLoss) as supervised loss and [KL Divergece](https://pytorch.org/docs/stable/generated/torch.nn.KLDivLoss.html) as unsupervised loss
 </br>
-![picture of a stack](stack.png)</br></br>
+![picture of a stack](stack.jpg)</br></br>
 
 Solution for the 2nd task:</br>
 1. Delete senseless samples from text dataset
